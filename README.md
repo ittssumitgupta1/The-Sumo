@@ -42,3 +42,15 @@ input, button {
   margin-top: 10px;
   border: 1px solid #ccc;
 }
+function addPost() {
+  const input = document.getElementById("postInput");
+  const postArea = document.getElementById("postArea");
+
+  if (input.value.trim() === "") return;
+
+  const post = document.createElement("div");
+  post.innerText = input.value;
+  postArea.appendChild(post);
+
+  input.value = "";
+}
