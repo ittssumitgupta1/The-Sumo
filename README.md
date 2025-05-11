@@ -21,3 +21,24 @@
   <script src="app.js"></script>
 </body>
 </html>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+#postArea div {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
